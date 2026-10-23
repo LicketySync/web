@@ -12,7 +12,8 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Let a deploy that has started finish; a newer run waits for it.
+  cancel-in-progress: false
 
 jobs:
   deploy:
