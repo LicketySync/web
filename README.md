@@ -1,12 +1,10 @@
 # Lickety-Sync — web
 
-The browser client, published to GitHub Pages. Its domain is to be
-**licketysync.dev**; until that domain is registered and verified, the
-placeholder is served at https://licketysync.github.io/web/, on the same
-licketysync.github.io origin as the documentation site. licketysync.dev is a
-separate domain and origin from the documentation site on purpose: a company
-that blocks the client blocks only the client, and the client's keys and cache
-live on an origin no documentation page shares.
+The browser client, published with GitHub Pages at https://licketysync.app.
+licketysync.app is a separate domain and origin from the documentation site,
+https://licketysync.com, on purpose: a company that blocks the client blocks
+only the client, and the client's keys and cache live on an origin no
+documentation page shares.
 
 The bundle here is built from the `app` repository's `ui` crate plus the core
 compiled to WebAssembly; this repository holds the deploy, the service worker
