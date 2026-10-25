@@ -1,9 +1,9 @@
 # Every action is pinned by full commit SHA, GitHub's own included, since a
 # tag can be moved, with the release tag on that commit in a comment, which
-# Dependabot reads to keep the pin current: the pinning rule of every
-# workflow in the project (the owner's decision of 2026-10-25, "CI tools -
-# pin."; core's ci.yml states it in full, and core's ci/pinned-actions.sh
-# checks the form when run on this directory).
+# Dependabot rewrites when it moves the pin: the pinning rule of every workflow
+# in the project (the owner's decisions of 2026-10-25, "CI tools - pin." and
+# "Stay current"; in full in core's .github/workflows/ci.yml header). Core's
+# ci/pinned-actions.sh checks the form when given this directory.
 name: Pages
 
 on:
